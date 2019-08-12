@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TwoSum.iml" filepath="$PROJECT_DIR$/TwoSum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/3.LongestSubstring.iml" filepath="$PROJECT_DIR$/.idea/3.LongestSubstring.iml" />
     </modules>
   </component>
 </project>
