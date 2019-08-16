@@ -44,3 +44,7 @@ leetcode link and hint
 #### 771.jewels-and-stones
 - link: https://leetcode-cn.com/problems/jewels-and-stones/
 - hint: if _, ok := jMap[string(S[i])]; ok
+
+#### 1123.lowest-common-ancestor-of-deepest-leaves
+- link: https://leetcode-cn.com/problems/lowest-common-ancestor-of-deepest-leaves/solution/
+- hint: if leftDepth == rightDepth return tree
