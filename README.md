@@ -41,6 +41,10 @@ leetcode link and hint
 - link: https://leetcode-cn.com/problems/pacific-atlantic-water-flow/
 - hint: search(matrix, i, j, val, dpt)   i, i-1, i+1; j, j-1, j+1
 
+#### 593. valid-square
+- link: https://leetcode-cn.com/problems/valid-square/
+- hint: v[0] != 0 && v[0] == v[2] && v[1] == v[3] && v[4] == v[5] && 2 * v[0] == v[4]
+
 #### 771.jewels-and-stones
 - link: https://leetcode-cn.com/problems/jewels-and-stones/
 - hint: if _, ok := jMap[string(S[i])]; ok
