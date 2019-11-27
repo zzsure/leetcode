@@ -1,6 +1,11 @@
 # leetcode
 leetcode link and hint
 
+#### 13.roman-to-integer
+- link: https://leetcode-cn.com/problems/roman-to-integer/submissions/
+- hint: romanMap := map[string]int {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000, "IV": 4, "IX": 9, "XL": 40, "XC": 90, "CD": 400,
+   "CM": 900,}
+
 #### 64.minimum-path-sum
 - link: https://leetcode-cn.com/problems/minimum-path-sum/
 - hint: path[i][j] = min(path[i-1][j], path[i][j-1]) + grid[i][j]
