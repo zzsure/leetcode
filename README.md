@@ -5,10 +5,18 @@ leetcode link and hint
 - link: https://leetcode-cn.com/problems/reverse-integer/submissions/
 - hint: r[i], r[j] = r[j], r[i]
 
+#### 9.palindrome-number
+- link: https://leetcode-cn.com/problems/palindrome-number/
+- hint: s[i] != s[j]
+
 #### 13.roman-to-integer
-- link: https://leetcode-cn.com/problems/roman-to-integer/submissions/
+- link: https://leetcode-cn.com/problems/roman-to-integer/
 - hint: romanMap := map[string]int {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000, "IV": 4, "IX": 9, "XL": 40, "XC": 90, "CD": 400,
    "CM": 900,}
+
+#### 14.longest-common-prefix
+- link: https://leetcode-cn.com/problems/longest-common-prefix/
+- hint: strs[0][i] != strs[j][i]
 
 #### 64.minimum-path-sum
 - link: https://leetcode-cn.com/problems/minimum-path-sum/
