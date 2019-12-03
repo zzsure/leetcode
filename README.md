@@ -18,6 +18,10 @@ leetcode link and hint
 - link: https://leetcode-cn.com/problems/longest-common-prefix/
 - hint: strs[0][i] != strs[j][i]
 
+#### 20.valid-parentheses
+- link: https://leetcode-cn.com/problems/valid-parentheses/
+- hint: stack := make([]byte, len(s)/2);   index := 0
+
 #### 64.minimum-path-sum
 - link: https://leetcode-cn.com/problems/minimum-path-sum/
 - hint: path[i][j] = min(path[i-1][j], path[i][j-1]) + grid[i][j]
