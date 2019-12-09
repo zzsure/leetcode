@@ -30,6 +30,14 @@ leetcode link and hint
 - link: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 - hint: if v != c { i++  nums[i] = v   c = v }
 
+#### 27.remove-element
+- link: https://leetcode.com/problems/remove-element/
+- hint: if v != val { num[i] = v  i++ }
+
+#### 28.implement-strstr
+- link: https://leetcode.com/problems/implement-strstr/
+- hint: if haystack[i+j] != needle[j] { isHave = false  break }
+
 #### 64.minimum-path-sum
 - link: https://leetcode.com/problems/minimum-path-sum/
 - hint: path[i][j] = min(path[i-1][j], path[i][j-1]) + grid[i][j]
