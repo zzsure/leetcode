@@ -1,8 +1,12 @@
 # leetcode
 leetcode link and hint
 
+### 3. longest-substring-without-repeating-characters
+- link: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+- hint: if _, ok := maxMap[s[i]]; ok { if i-sidx > maxLen { maxLen = i - sidx } }
+
 #### 7.reverse-integer
-- link: https://leetcode.com/problems/reverse-integer/submissions/
+- link: https://leetcode.com/problems/reverse-integer/
 - hint: r[i], r[j] = r[j], r[i]
 
 #### 9.palindrome-number
