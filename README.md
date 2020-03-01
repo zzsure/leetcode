@@ -17,6 +17,10 @@ leetcode link and hint
 - link: https://leetcode.com/problems/reverse-integer/
 - hint: r[i], r[j] = r[j], r[i]
 
+#### 8.string-to-integer(atoi)
+- link: https://leetcode-cn.com/problems/string-to-integer-atoi/
+- hint: num = num*10 + int64(ch)
+
 #### 9.palindrome-number
 - link: https://leetcode.com/problems/palindrome-number/
 - hint: s[i] != s[j]
