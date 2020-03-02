@@ -21,6 +21,10 @@ leetcode link and hint
 - link: https://leetcode-cn.com/problems/string-to-integer-atoi/
 - hint: num = num*10 + int64(ch)
 
+#### 12.integer-to-roman
+- link: https://leetcode.com/problems/integer-to-roman/submissions/
+- hint: romanArr := [15]string{"I", "II", "III", "IV", "V", "IX", "X", "XL", "L", "XC", "C", "CD", "D", "CM", "M"}
+
 #### 9.palindrome-number
 - link: https://leetcode.com/problems/palindrome-number/
 - hint: s[i] != s[j]
