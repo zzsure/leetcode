@@ -42,6 +42,14 @@ leetcode link and hint
 - link: https://leetcode.com/problems/longest-common-prefix/
 - hint: strs[0][i] != strs[j][i]
 
+#### 15.3sum
+- link: https://leetcode.com/problems/3sum/
+- hint: negSum := -1*(nums[i]+nums[j])
+
+#### 17.letter-combinations-of-a-phonee-number
+- link: https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+- hint: sub := letterCombinations(digits[1:]); newArr[i*len(sub)+k] = n
+
 #### 20.valid-parentheses
 - link: https://leetcode.com/problems/valid-parentheses/
 - hint: stack := make([]byte, len(s)/2);   index := 0
