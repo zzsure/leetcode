@@ -46,6 +46,10 @@ leetcode link and hint
 - link: https://leetcode.com/problems/3sum/
 - hint: negSum := -1*(nums[i]+nums[j])
 
+#### 16.3sum-closest
+- link: https://leetcode.com/problems/3sum-closest/
+- hint: sort.Ints(nums); num := nums[i]+nums[j]+nums[k]
+
 #### 17.letter-combinations-of-a-phonee-number
 - link: https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 - hint: sub := letterCombinations(digits[1:]); newArr[i*len(sub)+k] = n
