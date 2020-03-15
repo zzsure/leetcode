@@ -54,6 +54,10 @@ leetcode link and hint
 - link: https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 - hint: sub := letterCombinations(digits[1:]); newArr[i*len(sub)+k] = n
 
+#### 19.remove-nth-node-from-end-of-list
+- link: https://leetcode.com/problems/remove-nth-node-from-end-of-list/submissions/
+- hint: if i == n { pre = p1  p1 = p1.Next }
+
 #### 20.valid-parentheses
 - link: https://leetcode.com/problems/valid-parentheses/
 - hint: stack := make([]byte, len(s)/2);   index := 0
