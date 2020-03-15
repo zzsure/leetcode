@@ -54,6 +54,10 @@ leetcode link and hint
 - link: https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 - hint: sub := letterCombinations(digits[1:]); newArr[i*len(sub)+k] = n
 
+#### 18.4sum
+- link: https://leetcode.com/problems/4sum/
+- hint: negSum := target - nums[i] - nums[j] - nums[k]
+
 #### 19.remove-nth-node-from-end-of-list
 - link: https://leetcode.com/problems/remove-nth-node-from-end-of-list/submissions/
 - hint: if i == n { pre = p1  p1 = p1.Next }
@@ -65,6 +69,10 @@ leetcode link and hint
 #### 21.merge-two-sorted-lists
 - link: https://leetcode.com/problems/merge-two-sorted-lists/
 - hint: if cl2.Val < cl1.Val { val = cl2.Val  cl2 = cl2.Next } else { cl1 = cl1.Next }
+
+#### 22.generate-parentheses
+- link: https://leetcode.com/problems/generate-parentheses/
+- hint: res = append(res, "("+left+")"+right)
 
 #### 26.remove-duplicates-from-sorted-array
 - link: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
