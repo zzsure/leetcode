@@ -74,6 +74,10 @@ leetcode link and hint
 - link: https://leetcode.com/problems/generate-parentheses/
 - hint: res = append(res, "("+left+")"+right)
 
+#### 24.swap-nodes-in-pairs
+- link: https://leetcode.com/problems/swap-nodes-in-pairs/
+- hint: p1.Next = p2.Next; p2.Next = p1; p.Next = p2
+
 #### 26.remove-duplicates-from-sorted-array
 - link: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 - hint: if v != c { i++  nums[i] = v   c = v }
@@ -85,6 +89,14 @@ leetcode link and hint
 #### 28.implement-strstr
 - link: https://leetcode.com/problems/implement-strstr/
 - hint: if haystack[i+j] != needle[j] { isHave = false  break }
+
+#### 29.divide-two-integers
+- link: https://leetcode.com/problems/divide-two-integers/
+- hint: for x + x <= a { c = c + c; x = x + x; }
+
+#### 31.next-permutation
+- link: https://leetcode.com/problems/next-permutation/
+- hint: for ; i >= 0; i-- { if nums[i] < nums[i+1] { break } }
 
 #### 64.minimum-path-sum
 - link: https://leetcode.com/problems/minimum-path-sum/
