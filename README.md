@@ -98,6 +98,18 @@ leetcode link and hint
 - link: https://leetcode.com/problems/next-permutation/
 - hint: for ; i >= 0; i-- { if nums[i] < nums[i+1] { break } }
 
+#### 33.search-in-rotated-sorted-array
+- link: https://leetcode.com/problems/search-in-rotated-sorted-array/
+- hint: for ; i >= 0; i-- { if nums[i] < nums[i+1] { break } }
+
+#### 34.find-first-and-last-position-of-element-in-sorted-array
+- link: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+- hint: if target < nums[mid] && target >= nums[i] {  return binarySearch(nums, i, mid-1, target)  }
+
+#### 35.search-insert-position
+- link: https://leetcode.com/problems/search-insert-position/
+- hint: if nums[idx] > target { return idx }
+
 #### 64.minimum-path-sum
 - link: https://leetcode.com/problems/minimum-path-sum/
 - hint: path[i][j] = min(path[i-1][j], path[i][j-1]) + grid[i][j]
