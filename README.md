@@ -1,15 +1,15 @@
 # leetcode
 leetcode link and hint
 
-### 3. longest-substring-without-repeating-characters
+#### 3. longest-substring-without-repeating-characters
 - link: https://leetcode.com/problems/longest-substring-without-repeating-characters/
 - hint: if _, ok := maxMap[s[i]]; ok { if i-sidx > maxLen { maxLen = i - sidx } }
 
-### 5. longest-palindromic-substring
+#### 5. longest-palindromic-substring
 - link: https://leetcode.com/problems/longest-palindromic-substring/
 - hint: if s[i] == s[i-1] {...}  if i+1 < len(s) && s[i+1] == s[i-1] {...}
 
-### 6. zigzag-conversion
+#### 6. zigzag-conversion
 - link: https://leetcode-cn.com/problems/zigzag-conversion/
 - hint: if i == 0 {...} else if i == numRows-1 {...}  } else {...}
 
@@ -113,6 +113,10 @@ leetcode link and hint
 ### 36.valid-sudoku
 - link: https://leetcode.com/problems/valid-sudoku/
 - hint: b[3*i+j] = board[3*(k/3)+i][3*(k%3)+j]
+
+#### 63.combination-sum
+- link: https://leetcode.com/problems/combination-sum/
+- hint: dfs(candidates, list, i, target-candidates[i], sol)
 
 #### 64.minimum-path-sum
 - link: https://leetcode.com/problems/minimum-path-sum/
