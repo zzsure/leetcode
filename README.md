@@ -114,6 +114,10 @@ leetcode link and hint
 - link: https://leetcode.com/problems/valid-sudoku/
 - hint: b[3*i+j] = board[3*(k/3)+i][3*(k%3)+j]
 
+### 38.count-and-say
+- link: https://leetcode.com/problems/count-and-say/
+- hint: str := countAndSay(n - 1)
+
 #### 63.combination-sum
 - link: https://leetcode.com/problems/combination-sum/
 - hint: dfs(candidates, list, i, target-candidates[i], sol)
