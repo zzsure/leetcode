@@ -118,9 +118,13 @@ leetcode link and hint
 - link: https://leetcode.com/problems/count-and-say/
 - hint: str := countAndSay(n - 1)
 
-#### 63.combination-sum
+#### 39.combination-sum
 - link: https://leetcode.com/problems/combination-sum/
 - hint: dfs(candidates, list, i, target-candidates[i], sol)
+
+#### 40.combination-sum-ii
+- link: https://leetcode.com/problems/combination-sum-ii/
+- hint: dfs(candidates, ret, temp, i+1, target-(*candidates)[i])
 
 #### 64.minimum-path-sum
 - link: https://leetcode.com/problems/minimum-path-sum/

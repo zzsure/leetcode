@@ -1,12 +1,18 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
 
 func main() {
+	//[1, 7],
+	//[1, 2, 5],
+	//[2, 6],
+	//[1, 1, 6]
+	// [1, 1, 2, 5, 6, 7, 10]
 	println(len(combinationSum2([]int{10, 1, 2, 7, 6, 1, 5}, 8)))
+	//[1,2,2],
+	//[5]
 	println(len(combinationSum2([]int{2, 5, 2, 1, 2}, 5)))
 }
 
@@ -21,18 +27,23 @@ func combinationSum2(candidates []int, target int) [][]int {
 func dfs(candidates *[]int, ret *[][]int, temp *[]int, start, target int) {
 	if target == 0 {
 		sol := make([]int, len(*temp))
-		copy(sol, *temp)
+		//fmt.Println(*temp)
 		for _, r := range *ret {
 			if len(r) == len(*temp) {
-				for i := 0; i < len(r); i++ {
-					if r[i] == (*temp)[i] {
-						return
+				i := 0
+				for ; i < len(r); i++ {
+					if r[i] != (*temp)[i] {
+						break
 					}
+				}
+				if i == len(r) {
+					return
 				}
 			}
 		}
+		copy(sol, *temp)
+		//fmt.Println(*temp)
 		*ret = append(*ret, sol)
-		fmt.Println(*temp)
 	}
 	for i := start; i < len(*candidates) && (*candidates)[i] <= target; i++ {
 		*temp = append(*temp, (*candidates)[i])
