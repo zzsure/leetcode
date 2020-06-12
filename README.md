@@ -126,6 +126,14 @@ leetcode link and hint
 - link: https://leetcode.com/problems/combination-sum-ii/
 - hint: dfs(candidates, ret, temp, i+1, target-(*candidates)[i])
 
+#### 43.multiply-strings
+- link: https://leetcode.com/problems/multiply-strings/
+- hint: res[p2] = sum % 10; res[p1] += sum / 10
+
+#### 46.permutations
+- link: https://leetcode.com/problems/permutations/
+- hint: nums = nums[1:]; perms := permute(nums)
+
 #### 64.minimum-path-sum
 - link: https://leetcode.com/problems/minimum-path-sum/
 - hint: path[i][j] = min(path[i-1][j], path[i][j-1]) + grid[i][j]
