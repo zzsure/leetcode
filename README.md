@@ -134,6 +134,10 @@ leetcode link and hint
 - link: https://leetcode.com/problems/permutations/
 - hint: nums = nums[1:]; perms := permute(nums)
 
+#### 47.permutations-ii
+- link: https://leetcode.com/problems/permutations-ii/
+- hint: if i > 0 && nums[i] == nums[i-1] && !(*used)[i-1] { continue }
+
 #### 64.minimum-path-sum
 - link: https://leetcode.com/problems/minimum-path-sum/
 - hint: path[i][j] = min(path[i-1][j], path[i][j-1]) + grid[i][j]
