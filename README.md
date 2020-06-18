@@ -138,6 +138,10 @@ leetcode link and hint
 - link: https://leetcode.com/problems/permutations-ii/
 - hint: if i > 0 && nums[i] == nums[i-1] && !(*used)[i-1] { continue }
 
+#### 48.rotate-image
+- link: https://leetcode.com/problems/ratate-image/
+- hint: matrix[i][n-1-j+k], matrix[i+k][j], matrix[n-1-i][j-k], matrix[n-1-i-k][n-1-j] = matrix[n-1-i-k][n-1-j], matrix[i][n-1-j+k], matrix[i+k][j], matrix[n-1-i][j-k]
+
 #### 64.minimum-path-sum
 - link: https://leetcode.com/problems/minimum-path-sum/
 - hint: path[i][j] = min(path[i-1][j], path[i][j-1]) + grid[i][j]
