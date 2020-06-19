@@ -150,6 +150,10 @@ leetcode link and hint
 - link: https://leetcode.com/problems/powx-n/
 - hint: if n%2 == 1 { res *= x }
 
+#### 54.spiral-matrix
+- link: https://leetcode.com/problems/spiral-matrix/
+- hint: for left <= right && top <= bottom { }
+
 #### 64.minimum-path-sum
 - link: https://leetcode.com/problems/minimum-path-sum/
 - hint: path[i][j] = min(path[i-1][j], path[i][j-1]) + grid[i][j]
