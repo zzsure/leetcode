@@ -142,6 +142,10 @@ leetcode link and hint
 - link: https://leetcode.com/problems/ratate-image/
 - hint: matrix[i][n-1-j+k], matrix[i+k][j], matrix[n-1-i][j-k], matrix[n-1-i-k][n-1-j] = matrix[n-1-i-k][n-1-j], matrix[i][n-1-j+k], matrix[i+k][j], matrix[n-1-i][j-k]
 
+#### 49.group-anagrams
+- link: https://leetcode.com/problems/group-anagrams/
+- hint: sort.Sort(StrObjs(objs))
+
 #### 64.minimum-path-sum
 - link: https://leetcode.com/problems/minimum-path-sum/
 - hint: path[i][j] = min(path[i-1][j], path[i][j-1]) + grid[i][j]
