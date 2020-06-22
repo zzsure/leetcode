@@ -154,6 +154,14 @@ leetcode link and hint
 - link: https://leetcode.com/problems/spiral-matrix/
 - hint: for left <= right && top <= bottom { }
 
+#### 55.jump-game
+- link: https://leetcode.com/problems/jump-game/
+- hint: if reach >= i && nums[i]+i > reach { reach = nums[i] + i }
+
+#### 56.merge-intervals
+- link: https://leetcode.com/problems/merge-intervals/
+- hint: sort.Sort(Intervals(intervals))
+
 #### 64.minimum-path-sum
 - link: https://leetcode.com/problems/minimum-path-sum/
 - hint: path[i][j] = min(path[i-1][j], path[i][j-1]) + grid[i][j]
