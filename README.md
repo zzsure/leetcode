@@ -162,6 +162,18 @@ leetcode link and hint
 - link: https://leetcode.com/problems/merge-intervals/
 - hint: sort.Sort(Intervals(intervals))
 
+#### 58.length-of-last-word
+- link: https://leetcode.com/problems/length-of-last-word/
+- hint: for i := count - 1; i >= 0; i-- { }
+
+#### 59.spiral-matrix-ii
+- link: https://leetcode.com/problems/spiral-matrix-ii/
+- hint: for k := 1; k <= n*n && left < right && top < bottom; { }
+
+#### 61.rotate-list
+- link: https://leetcode.com/problems/rotate-list/
+- hint: i, j := 0, 0; p1, p2 := head, sentry
+
 #### 64.minimum-path-sum
 - link: https://leetcode.com/problems/minimum-path-sum/
 - hint: path[i][j] = min(path[i-1][j], path[i][j-1]) + grid[i][j]
