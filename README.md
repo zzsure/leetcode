@@ -174,6 +174,14 @@ leetcode link and hint
 - link: https://leetcode.com/problems/rotate-list/
 - hint: i, j := 0, 0; p1, p2 := head, sentry
 
+#### 62.unique-paths
+- link: https://leetcode.com/problems/unique-paths/
+- hint: dp[i][j] = dp[i-1][j] + dp[i][j-1]
+
+#### 63.unique-paths-ii
+- link: https://leetcode.com/problems/unique-paths-ii/
+- hint: dp[i][j] = dp[i-1][j] + dp[i][j-1]
+
 #### 64.minimum-path-sum
 - link: https://leetcode.com/problems/minimum-path-sum/
 - hint: path[i][j] = min(path[i-1][j], path[i][j-1]) + grid[i][j]
