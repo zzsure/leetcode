@@ -186,6 +186,10 @@ leetcode link and hint
 - link: https://leetcode.com/problems/minimum-path-sum/
 - hint: path[i][j] = min(path[i-1][j], path[i][j-1]) + grid[i][j]
 
+#### 66.plus-one
+- link: https://leetcode.com/problems/plus-one/
+- hint: n := digits[i] + carry
+
 #### 79.word-search
 - link: https://leetcode.com/problems/word-search/
 - hint: search(board, word, i-1, j, idx+1) || search(board, word, i, j+1, idx+1) || search(board, word, i+1, j, idx+1) || search(board, word, i, j-1, idx+1)
