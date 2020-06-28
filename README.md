@@ -190,6 +190,26 @@ leetcode link and hint
 - link: https://leetcode.com/problems/plus-one/
 - hint: n := digits[i] + carry
 
+#### 67.add-binary
+- link: https://leetcode.com/problems/add-binary/
+- hint: if carry == 1 { res[0] = '1' }
+
+#### 69.sqrtx
+- link: https://leetcode.com/problems/sqrtx/
+- hint: k := (i + j) / 2
+
+#### 70.climbing-stairs
+- link: https://leetcode.com/problems/climbing-stairs/
+- hint: dp[i] = dp[i-1] + dp[i-2]
+
+#### 73.set-matrix-zeroes
+- link: https://leetcode.com/problems/set-matrix-zeroes/
+- hint: rz, cz := false, false
+
+#### 75.sort-colors
+- link: https://leetcode.com/problems/sort-colors/
+- hint: if nums[idx] == 0 { } else if nums[idx] == 2 { }
+
 #### 79.word-search
 - link: https://leetcode.com/problems/word-search/
 - hint: search(board, word, i-1, j, idx+1) || search(board, word, i, j+1, idx+1) || search(board, word, i+1, j, idx+1) || search(board, word, i, j-1, idx+1)
