@@ -210,9 +210,21 @@ leetcode link and hint
 - link: https://leetcode.com/problems/sort-colors/
 - hint: if nums[idx] == 0 { } else if nums[idx] == 2 { }
 
+#### 77.combinations
+- link: https://leetcode.com/problems/combinations/
+- hint: dfs(res, temp, n, k, i+1)
+
+#### 78.subsets
+- link: https://leetcode.com/problems/subsets/
+- hint: temp := combine(count, i); idxs = append(idxs, temp...)
+
 #### 79.word-search
 - link: https://leetcode.com/problems/word-search/
 - hint: search(board, word, i-1, j, idx+1) || search(board, word, i, j+1, idx+1) || search(board, word, i+1, j, idx+1) || search(board, word, i, j-1, idx+1)
+
+#### 80.remove-duplicates-from-sorted-array-ii
+- link: https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
+- hint: nums[rc-1] = nums[i]
 
 #### 105.construct-binary-tree-from-preorder-and-inorder-traversal
 - link: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
