@@ -170,6 +170,10 @@ leetcode link and hint
 - link: https://leetcode.com/problems/spiral-matrix-ii/
 - hint: for k := 1; k <= n*n && left < right && top < bottom; { }
 
+#### 60.permutation-sequence
+- link: https://leetcode.com/problems/permutation-sequence/
+- hint: cur := factorial(n - depth - 1)
+
 #### 61.rotate-list
 - link: https://leetcode.com/problems/rotate-list/
 - hint: i, j := 0, 0; p1, p2 := head, sentry
@@ -201,6 +205,10 @@ leetcode link and hint
 #### 70.climbing-stairs
 - link: https://leetcode.com/problems/climbing-stairs/
 - hint: dp[i] = dp[i-1] + dp[i-2]
+
+#### 71.simplify-path
+- link: https://leetcode.com/problems/simplify-path/
+- hint: stack.Push(str)
 
 #### 73.set-matrix-zeroes
 - link: https://leetcode.com/problems/set-matrix-zeroes/
