@@ -214,6 +214,10 @@ leetcode link and hint
 - link: https://leetcode.com/problems/set-matrix-zeroes/
 - hint: rz, cz := false, false
 
+#### 74.search-a-2d-matrix
+- link: https://leetcode.com/problems/search-a-2d-matrix/
+- hint: if target == matrix[row][k] { }
+
 #### 75.sort-colors
 - link: https://leetcode.com/problems/sort-colors/
 - hint: if nums[idx] == 0 { } else if nums[idx] == 2 { }
@@ -233,6 +237,10 @@ leetcode link and hint
 #### 80.remove-duplicates-from-sorted-array-ii
 - link: https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
 - hint: nums[rc-1] = nums[i]
+
+#### 81.search-in-rotated-sorted-array-ii
+- link: https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
+- hint: if nums[i] == nums[k] { i++ }
 
 #### 105.construct-binary-tree-from-preorder-and-inorder-traversal
 - link: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
