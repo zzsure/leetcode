@@ -242,6 +242,10 @@ leetcode link and hint
 - link: https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 - hint: if nums[i] == nums[k] { i++ }
 
+#### 82.remove-duplicates-from-sorted-list-ii
+- link: https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
+- hint: ll, last, cur := dumy, dumy, head
+
 #### 105.construct-binary-tree-from-preorder-and-inorder-traversal
 - link: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 - hint: tree.Left = buildTree(preorder[1:inIdx+1], inorder[0:inIdx]); tree.Right = buildTree(preorder[inIdx+1:len(preorder)], inorder[inIdx+1:len(inorder)])
