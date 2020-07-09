@@ -246,6 +246,30 @@ leetcode link and hint
 - link: https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
 - hint: ll, last, cur := dumy, dumy, head
 
+#### 83.remove-duplicates-from-sorted-list
+- link: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+- hint: if cur == head || cur.Val != last.Val { last.Next = cur; last = cur }
+
+#### 86.partition-list
+- link: https://leetcode.com/problems/partition-list/
+- hint: cur, leftCur, rightCur := head, left, right
+
+#### 88.merge-sorted-array
+- link: https://leetcode.com/problems/merge-sorted-array/
+- hint: copy(temp, nums1[0:m])
+
+#### 90.subsets-ii
+- link: https://leetcode.com/problems/subsets-ii/
+- hint: dfs(nums, res, temp, n, k, i+1)
+
+#### 91.decode-ways
+- link: https://leetcode.com/problems/decode-ways/
+- hint: cur, pre := 1, 1
+
+#### 92.reverse-linked-list-ii
+- link: https://leetcode.com/problems/reverse-linked-list-ii/
+- hint: pre, last, cur := dummy, head, head
+
 #### 105.construct-binary-tree-from-preorder-and-inorder-traversal
 - link: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 - hint: tree.Left = buildTree(preorder[1:inIdx+1], inorder[0:inIdx]); tree.Right = buildTree(preorder[inIdx+1:len(preorder)], inorder[inIdx+1:len(inorder)])
