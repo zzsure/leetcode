@@ -270,6 +270,18 @@ leetcode link and hint
 - link: https://leetcode.com/problems/reverse-linked-list-ii/
 - hint: pre, last, cur := dummy, head, head
 
+#### 93.restore-ip-address
+- link: https://leetcode.com/problems/restore-ip-address/
+- hint: dfs(s, res, temp, depth+1, j+1)
+
+#### 94.binary-tree-inorder-traversal
+- link: https://leetcode.com/problems/binary-tree-inorder-traversal/
+- hint: *res = append(*res, root.Val)
+
+#### 95.unique-binary-search-tree-ii
+- link: https://leetcode.com/problems/unique-binary-search-tree-ii/
+- hint: lefts := preTrees(i, k-1); rights := preTrees(k+1, j)
+
 #### 105.construct-binary-tree-from-preorder-and-inorder-traversal
 - link: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 - hint: tree.Left = buildTree(preorder[1:inIdx+1], inorder[0:inIdx]); tree.Right = buildTree(preorder[inIdx+1:len(preorder)], inorder[inIdx+1:len(inorder)])
