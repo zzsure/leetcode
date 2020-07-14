@@ -258,6 +258,10 @@ leetcode link and hint
 - link: https://leetcode.com/problems/merge-sorted-array/
 - hint: copy(temp, nums1[0:m])
 
+#### 89.gray-code
+- link: https://leetcode.com/problems/gray-code/
+- hint: res[int(j)] = res[int(end-j-1)] | (1 << (i - 1))
+
 #### 90.subsets-ii
 - link: https://leetcode.com/problems/subsets-ii/
 - hint: dfs(nums, res, temp, n, k, i+1)
@@ -278,9 +282,17 @@ leetcode link and hint
 - link: https://leetcode.com/problems/binary-tree-inorder-traversal/
 - hint: *res = append(*res, root.Val)
 
-#### 95.unique-binary-search-tree-ii
-- link: https://leetcode.com/problems/unique-binary-search-tree-ii/
+#### 95.unique-binary-search-trees-ii
+- link: https://leetcode.com/problems/unique-binary-search-trees-ii/
 - hint: lefts := preTrees(i, k-1); rights := preTrees(k+1, j)
+
+#### 96.unique-binary-search-trees
+- link: https://leetcode.com/problems/unique-binary-search-trees/
+- hint: num += dp[j-1] * dp[i-j]
+
+#### 98.validate-binary-search-tree
+- link: https://leetcode.com/problems/validate-binary-search-tree/
+- hint: if len(*temp) > 0 && root.Val <= (*temp)[len(*temp)-1] { return false }
 
 #### 105.construct-binary-tree-from-preorder-and-inorder-traversal
 - link: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
