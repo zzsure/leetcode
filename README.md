@@ -294,6 +294,26 @@ leetcode link and hint
 - link: https://leetcode.com/problems/validate-binary-search-tree/
 - hint: if len(*temp) > 0 && root.Val <= (*temp)[len(*temp)-1] { return false }
 
+#### 100.same-tree
+- link: https://leetcode.com/problems/same-tree/
+- hint: if isSameTree(p.Left, q.Left) == false { return false }
+
+#### 101.symmetric-tree
+- link: https://leetcode.com/problems/symmetric-tree/
+- hint: temp = append(temp, node.Left); temp = append(temp, node.Right)
+
+#### 102.binary-tree-level-order-traversal
+- link: https://leetcode.com/problems/binary-tree-level-order-traversal/
+- hint: if node.Left != nil { temp = append(temp, node.Left) }
+
+#### 103.binary-tree-zigzag-level-order-traversal
+- link: https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+- hint: dir = ^dir
+
+#### 104.maximum-depth-of-binary-tree
+- link: https://leetcode.com/problems/maximum-depth-of-binary-tree/
+- hint: left := maxDepth(root.Left); right := maxDepth(root.Right)
+
 #### 105.construct-binary-tree-from-preorder-and-inorder-traversal
 - link: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 - hint: tree.Left = buildTree(preorder[1:inIdx+1], inorder[0:inIdx]); tree.Right = buildTree(preorder[inIdx+1:len(preorder)], inorder[inIdx+1:len(inorder)])
