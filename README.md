@@ -318,6 +318,26 @@ leetcode link and hint
 - link: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 - hint: tree.Left = buildTree(preorder[1:inIdx+1], inorder[0:inIdx]); tree.Right = buildTree(preorder[inIdx+1:len(preorder)], inorder[inIdx+1:len(inorder)])
 
+#### 106.construct-binary-tree-from-inorder-and-postorder-traversal
+- link: https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+- hint: root.Left = buildTree(inorder[0:inIdx], postorder[0:inIdx])
+
+#### 107.binary-tree-level-order-traversal-ii
+- link: https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
+- hint: res[i], res[j] = res[j], res[i]
+
+#### 108.convert-sorted-array-to-binary-search-tree
+- link: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+- hint: root.Left = sortedArrayToBST(nums[0 : count/2])
+
+#### 109.convert-sorted-list-to-binary-search-tree
+- link: https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
+- hint: nums = append(nums, head.Val)
+
+#### 110.balance-binary-tree
+- link: https://leetcode.com/problems/balance-binary-tree/
+- hint: if left == right || left == right+1 || left == right-1 { return isBalanced(root.Left) && isBalanced(root.Right) }
+
 #### 121.best-time-to-buy-and-sell-stock
 - link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 - hint: prices[i] - min > profit
