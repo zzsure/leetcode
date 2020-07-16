@@ -338,6 +338,14 @@ leetcode link and hint
 - link: https://leetcode.com/problems/balance-binary-tree/
 - hint: if left == right || left == right+1 || left == right-1 { return isBalanced(root.Left) && isBalanced(root.Right) }
 
+#### 111.minimum-depth-of-binary-tree
+- link: https://leetcode.com/problems/minimum-depth-of-binary-tree/
+- hint: dfs(root.Left, depth+1, minDepth)
+
+#### 112.path-sum
+- link: https://leetcode.com/problems/path-sum/
+- hint: if root.Left == nil && root.Right == nil && root.Val == sum { return true }
+
 #### 121.best-time-to-buy-and-sell-stock
 - link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 - hint: prices[i] - min > profit
