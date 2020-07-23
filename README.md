@@ -346,6 +346,14 @@ leetcode link and hint
 - link: https://leetcode.com/problems/path-sum/
 - hint: if root.Left == nil && root.Right == nil && root.Val == sum { return true }
 
+#### 113.path-sum-ii
+- link: https://leetcode.com/problems/path-sum-ii/
+- hint: preTree(root.Left, sum-root.Val, temp, res)
+
+#### 114.flatten-binary-tree-to-linked-list
+- link: https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+- hint: flatten(l)
+
 #### 121.best-time-to-buy-and-sell-stock
 - link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 - hint: prices[i] - min > profit
