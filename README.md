@@ -362,6 +362,14 @@ leetcode link and hint
 - link: https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
 - hint: pre, leftNode = cur.Left, cur.Left
 
+#### 118.pascals-triangle
+- link: https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
+- hint: temp[j] = res[i-2][j] + res[i-2][j-1]
+
+#### 119.pascals-triangle-ii
+- link: https://leetcode.com/problems/pascals-triangle-ii/
+- hint: temp := res[j] + pre
+
 #### 121.best-time-to-buy-and-sell-stock
 - link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 - hint: prices[i] - min > profit
