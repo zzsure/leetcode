@@ -354,6 +354,14 @@ leetcode link and hint
 - link: https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
 - hint: flatten(l)
 
+#### 116.populating-next-right-pointers-in-each-node
+- link: https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
+- hint: head.Right.Next = head.Next.Left
+
+#### 114.populating-next-right-pointers-in-each-node-ii
+- link: https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
+- hint: pre, leftNode = cur.Left, cur.Left
+
 #### 121.best-time-to-buy-and-sell-stock
 - link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 - hint: prices[i] - min > profit
