@@ -370,6 +370,10 @@ leetcode link and hint
 - link: https://leetcode.com/problems/pascals-triangle-ii/
 - hint: temp := res[j] + pre
 
+#### 120.triangle
+- link: https://leetcode.com/problems/triangle/
+- hint: dp[j] = pre + triangle[i][j]
+
 #### 121.best-time-to-buy-and-sell-stock
 - link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 - hint: prices[i] - min > profit
