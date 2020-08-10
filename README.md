@@ -378,6 +378,14 @@ leetcode link and hint
 - link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 - hint: prices[i] - min > profit
 
+#### 122.best-time-to-buy-and-sell-stock-ii
+- link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+- hint: profit += prices[i] - prices[i-1]
+
+#### 125.valid-palindrome
+- link: https://leetcode.com/problems/valid-palindrome/
+- hint: if i < len(s) && j >= 0 && s[i] != s[j] { }
+
 #### 136.single-number
 - link: https://leetcode.com/problems/single-number/
 - hint: ret = ret ^ num
